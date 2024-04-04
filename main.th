@@ -11,6 +11,11 @@ survey krvenica -title "Krvenica"
   input surveys/mnemo-aa1-001
   input surveys/mnemo-aa2-002
   input surveys/mnemo-aa3-003
+  input surveys/mnemo-ma3-004
+  input surveys/mnemo-mag-005
+  input surveys/mnemo-aa6-007
+  input surveys/mnemo-ja3-008
+  
     
   centerline
     walls auto
