@@ -7,12 +7,14 @@ encoding UTF-8
 survey ma3-004
   centreline
 
-    date 2024.04.04
-
-    # Uncomment and fill the lines below to set the team members names.
-    #team ""
-    #explo-date ""
-    #explo-team ""
+    explo-team "Matija Petković" 
+    explo-team "Nemanja Nikoletić"  
+    explo-date 2022.06.01
+    
+    team "Matija Petković"
+    team "Lazar Obradović"
+    
+    date 2023.06.10
 
     instrument compass "MNemo V2"
     instrument depth "MNemo V2"
@@ -22,7 +24,7 @@ survey ma3-004
     sd depth 0.1 metres
     sd tape 0.086 metres
 
-    calibrate depth 0 -1
+    calibrate depth 0.2 -1
 
     units tape depth metres
 

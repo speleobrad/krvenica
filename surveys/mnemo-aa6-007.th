@@ -25,7 +25,8 @@ survey aa6-007
     sd depth 0.1 metres
     sd tape 0.086 metres
 
-    calibrate depth 0 -1
+    # water level was 40cm lower than on the first day.
+    calibrate depth 0.4 -1
 
     units tape depth metres
 
