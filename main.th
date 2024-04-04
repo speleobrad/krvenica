@@ -1,27 +1,27 @@
 encoding  iso8859-2
 #
-# <CAVE NAME>.
+# Krvenica, Tuzi, Montenegro
 #
 # CC BY-NC-SA 4.0 
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
  
-# == Name of survey and title of the generated documents
-survey cave_name -title "Cave name" 
+survey krvenica -title "Krvenica" 
 
-  # == Add your survey pieces. repeat as many times as needed
-  # input surveys/file_name
+  input surveys/mnemo-aa1-001
+  input surveys/mnemo-aa2-002
+  input surveys/mnemo-aa3-003
     
   centerline
     walls auto
     
-    # == In case you are splicing surveys
-    # equate 1@survey1     1@survey2
+    equate 2@aa1-001    3@aa2-002
+    equate 20@aa1-001   1@aa3-003
     
   endcenterline
   
   # == Your maps go here. 
-  #input main.th2
+  # input main.th2
 
 endsurvey
 

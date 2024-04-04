@@ -1,0 +1,54 @@
+# th file initially created:
+# * with MNemolink version 1.4.5
+# * at 2024-04-04T14:52:54.291291
+
+encoding UTF-8
+
+survey aa6-007
+  centreline
+
+    explo-team "Matija Petković" 
+    explo-team "Lazar Obradovic"
+    date 2023.06.13
+     
+    team "Matija Petković"
+    team "Aleksandar Besarović"
+    team "Lazar Obradović"
+    
+    date 2023.06.13
+
+    instrument compass "MNemo V2"
+    instrument depth "MNemo V2"
+    instrument tape "MNemo V2"
+
+    sd compass 1.5 degrees
+    sd depth 0.1 metres
+    sd tape 0.086 metres
+
+    calibrate depth 0 -1
+
+    units tape depth metres
+
+    data diving from to tape compass backcompass fromdepth todepth ignoreall
+    # From	To	Length	AzIn	180-AzOut	DepIn	DepOut	AzIn	AzOut	AzDelta	PitchIn	PitchOut
+
+      1	2	8.94	293.5	113.0	39.13	39.47	293.5	293.0	0.5	-5.1	18.7
+      2	3	12.72	261.8	79.5	39.18	36.55	261.8	259.5	2.3	11.1	7.2
+      3	4	17.05	305.8	123.3	37.01	41.69	305.8	303.3	2.5	-27.2	-3.3
+
+      # Azimuth WARNING: difference between IN (308.9) and OUT (303.7) azimuths greater than limit (5.0): 5.2
+      4	5	6.14	308.9	123.7	41.74	43.27	308.9	303.7	5.2	-11.1	-13.0
+      5	6	7.78	331.4	151.6	43.63	45.85	331.4	331.6	0.2	-13.7	-7.7
+
+      # Azimuth WARNING: difference between IN (324.1) and OUT (317.6) azimuths greater than limit (5.0): 6.5
+      6	7	18.12	324.1	137.6	45.88	48.38	324.1	317.6	6.5	-4.6	-4.1
+
+      # Azimuth WARNING: difference between IN (275.0) and OUT (260.2) azimuths greater than limit (5.0): 14.8
+      7	8	8.14	275.0	80.2	49.13	49.84	275.0	260.2	14.8	-6.5	7.6
+
+      # Azimuth WARNING: difference between IN (239.5) and OUT (208.5) azimuths greater than limit (5.0): 31.0
+      8	9	4.54	239.5	28.5	49.77	49.62	239.5	208.5	31.0	0.0	25.6
+      9	10	8.96	195.6	17.0	49.51	50.07	195.6	197.0	1.4	6.6	-3.8
+
+  endcentreline
+endsurvey aa6-007
