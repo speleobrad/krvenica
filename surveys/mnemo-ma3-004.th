@@ -34,7 +34,7 @@ survey ma3-004
       1	2	7.29	218.3	38.5	38.27	42.11	218.3	218.5	0.2	-42.3	-3.2
 
       # Azimuth WARNING: difference between IN (43.8) and OUT (305.5) azimuths greater than limit (5.0): 98.3
-      2	3	0.13	43.8	125.5	42.32	53.15	43.8	305.5	98.3	0.4	15.8
+      # 2	3	0.13	43.8	125.5	42.32	53.15	43.8	305.5	98.3	0.4	15.8
 
   endcentreline
 endsurvey ma3-004
