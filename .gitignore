@@ -1,5 +1,5 @@
-output/*.pdf
-output/*.xvi
-output/*.lox
+*.pdf
+*.xvi
+*.lox
 *.log
 .xtherion.dat

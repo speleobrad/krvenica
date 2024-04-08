@@ -8,14 +8,43 @@ encoding  utf-8
 source main
 input layouts/speleobrad.layout
 
+export map   -o output/plan.xvi             -projection plan
+export map   -o output/elevation.xvi        -projection elevation
+export map   -o output/extended.xvi         -projection extended
 
-export map   -o output/plan.pdf           -layout speleobrad -projection plan
-export map   -o output/profile.pdf        -layout speleobrad -projection extended
+export map   -o output/plan.pdf             -projection plan       -layout speleobrad
+export map   -o output/elevation.pdf        -projection elevation  -layout speleobrad
+export map   -o output/extended.pdf         -projection extended   -layout speleobrad
 
-export atlas -o output/atlas-plan.pdf     -layout speleobrad -projection plan
-export atlas -o output/atlas-profile.pdf  -layout speleobrad -projection extended
+export atlas -o output/atlas-plan.pdf       -projection plan       -layout speleobrad
+export atlas -o output/atlas-elevation.pdf  -projection elevation  -layout speleobrad
+export atlas -o output/atlas-extended.pdf   -projection extended   -layout speleobrad
 
 export model -o output/model.lox
 
-export map -projection plan     -output output/plan.xvi
-export map -projection extended -output output/profile.xvi
+layout empty_header
+    code tex-map
+      \legendtitle={}
+      \cavename={}
+      \scalebarfalse
+      \cavelengthtitle={}
+      \cavelength={}
+      \cavedepthtitle={}
+      \cavedepth={}
+    endcode
+  endlayout
+
+  export map -output ext.pdf -proj extended \
+    -layout-map-header 0 0 s \
+    -layout-map-comment "Extended section" \
+    -layout-scale 1 1000 \
+    -layout empty_header
+
+  export map -output output/cave.pdf -proj plan \
+    -layout-map-image 0 0 n ext.pdf \
+    -layout-map-header 0 0 n \
+    -layout-scale 1 1000 \
+    -layout empty_header \
+    -layout-map-comment "Plan" 
+  
+  system "rm ext.pdf"

@@ -22,12 +22,13 @@ survey krvenica -title "Krvenica"
     
     equate 1@aa1-001    3@aa2-002
     equate 20@aa1-001   1@aa3-003
-    equate 1@ma3-004    35@mag-005   1@aa6-007   11@aa3-003
+    equate 11@aa3-003   1@ma3-004   35@mag-005   1@aa6-007   
     equate 11@ja3-008   2@mag-005
     
   endcenterline
   
-  input main.th2
+  input ulaz-extended.th2
+  input ulaz-plan.th2
 
 endsurvey
 
