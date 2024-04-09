@@ -1,8 +1,8 @@
+encoding  utf-8
 # th file initially created:
 # * with MNemolink version 1.4.5
 # * at 2024-04-04T14:52:54.289254
 
-encoding UTF-8
 
 survey ma3-004
   centreline
@@ -12,7 +12,7 @@ survey ma3-004
     explo-date 2022.06.01
     
     team "Matija Petković"
-    team "Lazar Obradović"
+    team "Лазар Обрадовић"
     
     date 2023.06.10
 
@@ -29,12 +29,13 @@ survey ma3-004
     units tape depth metres
 
     data diving from to tape compass backcompass fromdepth todepth ignoreall
-    # From	To	Length	AzIn	180-AzOut	DepIn	DepOut	AzIn	AzOut	AzDelta	PitchIn	PitchOut
+    # From  To  Length  AzIn  180-AzOut  DepIn  DepOut  AzIn  AzOut  AzDelta  PitchIn  PitchOut
 
-      1	2	7.29	218.3	38.5	38.27	42.11	218.3	218.5	0.2	-42.3	-3.2
+      1  2  7.29  218.3  38.5  38.27  42.11  218.3  218.5  0.2  -42.3  -3.2
 
       # Azimuth WARNING: difference between IN (43.8) and OUT (305.5) azimuths greater than limit (5.0): 98.3
-      # 2	3	0.13	43.8	125.5	42.32	53.15	43.8	305.5	98.3	0.4	15.8
+      # 2  3  0.13  43.8  125.5  42.32  53.15  43.8  305.5  98.3  0.4  15.8
 
   endcentreline
 endsurvey ma3-004
+

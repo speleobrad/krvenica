@@ -6,7 +6,7 @@ encoding  utf-8
 
 
 
-scrap ulaz -projection extended -scale [-128 -1334 2211 -1334 0.0 0.0 59.410599999999995 0.0 m] -sketch drawings/profile-01.png 0 -1206
+scrap ulaz-e -projection extended -scale [-128 -1334 2211 -1334 0.0 0.0 59.410599999999995 0.0 m] -sketch drawings/profile-01.png 0 -1206
 
 point -52.5 -9.0 station -name 1@aa2-002
 
@@ -488,11 +488,13 @@ point 9.5 -8.0 blocks -scale xl
 line border -id l60-1874--1023 -subtype invisible
   1781.0 -1080.0
   1781.0 -1080.0 1840.0 -986.0 1946.0 -977.0
+  smooth off
 endline
 
 line border -id l59-142-3 -subtype invisible
   -127.0 5.0
-  192.0 5.0
+  -127.0 5.0 122.0 1.0 198.0 18.0
+  smooth off
 endline
 
 line border -id l58--51-24 -subtype invisible

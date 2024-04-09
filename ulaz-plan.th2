@@ -1,12 +1,12 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -175.0 -203.99999999999991 6458.94 3103.1749999999997
+##XTHERION## xth_me_area_adjust -194.6800000000003 -381.15999999999974 6577.054999999999 3122.865
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {799.46 1 1.0} {1715.3400000000001 1@aa1-001.krvenica} output/plan.xvi 0 {}
 ##XTHERION## xth_me_image_insert {227 1 7.762471166286918} {1326 {}} drawings/plan-01.png 0 {}
 
 
 
-scrap scrap1 -projection plan -scale [-128.0 -128.0 6505.94 -128.0 0.0 0.0 168.502076 0.0 m]
+scrap ulaz-p -projection plan -scale [-128.0 -128.0 6505.94 -128.0 0.0 0.0 168.502076 0.0 m]
 
 point 1858.0 728.0 station -name 10@aa3-003
 
@@ -190,6 +190,7 @@ endline
 line border -id l33-1788-362 -subtype invisible
   1763.5 345.75
   1763.5 345.75 1789.75 367.0 1801.75 374.0
+  smooth off
 endline
 
 line wall -id l37-410-924 -reverse on
@@ -323,6 +324,7 @@ line wall -id l37-410-924 -reverse on
   1797.0 716.0 1794.65 716.8 1792.25 709.0
   1787.25 692.75 1778.5 701.75 1776.5 688.5
   1774.43 674.82 1755.0 681.5 1748.0 682.5
+  smooth off
 endline
 
 line border -id l42-945-738 -subtype invisible
@@ -348,11 +350,13 @@ endline
 line border -id l51-1825-767 -subtype invisible
   1854.0 795.0
   1854.0 795.0 1728.5 678.0 1756.0 664.0
+  smooth off
 endline
 
 line border -id l38-402-841 -subtype invisible
   370.0 894.5
   370.0 894.5 437.0 812.0 435.0 769.0
+  smooth off
 endline
 
 area water

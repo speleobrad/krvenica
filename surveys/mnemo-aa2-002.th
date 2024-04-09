@@ -1,8 +1,8 @@
+encoding  utf-8
 # th file initially created:
 # * with MNemolink version 1.4.5
 # * at 2024-04-04T14:52:54.288234
 
-encoding UTF-8
 
 survey aa2-002
   centreline
@@ -13,7 +13,7 @@ survey aa2-002
     
     team "Matija Petković"
     team "Aleksandar Besarović"
-    team "Lazar Obradović"
+    team "Лазар Обрадовић"
     date 2023.06.10
 
     instrument compass "MNemo V2"
@@ -30,13 +30,14 @@ survey aa2-002
     units tape depth metres
 
     data diving from to tape compass backcompass fromdepth todepth ignoreall
-    # From	To	Length	AzIn	180-AzOut	DepIn	DepOut	AzIn	AzOut	AzDelta	PitchIn	PitchOut
+    # From  To  Length  AzIn  180-AzOut  DepIn  DepOut  AzIn  AzOut  AzDelta  PitchIn  PitchOut
 
       # Azimuth WARNING: difference between IN (34.3) and OUT (62.7) azimuths greater than limit (5.0): 28.4
-      1	2	8.34	34.3	242.7	0.05	1.04	34.3	62.7	28.4	-5.1	-2.3
+      1  2  8.34  34.3  242.7  0.05  1.04  34.3  62.7  28.4  -5.1  -2.3
 
       # Azimuth WARNING: difference between IN (86.0) and OUT (124.8) azimuths greater than limit (5.0): 38.8
-      2	3	9.68	86.0	304.8	1.29	5.78	86.0	124.8	38.8	-21.5	-18.7
+      2  3  9.68  86.0  304.8  1.29  5.78  86.0  124.8  38.8  -21.5  -18.7
 
   endcentreline
 endsurvey aa2-002
+

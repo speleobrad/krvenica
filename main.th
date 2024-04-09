@@ -11,7 +11,7 @@ survey krvenica -title "Krvenica"
   input surveys/mnemo-aa1-001
   input surveys/mnemo-aa2-002
   input surveys/mnemo-aa3-003
-  input surveys/mnemo-ma3-004
+  # input surveys/mnemo-ma3-004
   input surveys/mnemo-mag-005
   input surveys/mnemo-aa6-007
   input surveys/mnemo-ja3-008
@@ -22,13 +22,17 @@ survey krvenica -title "Krvenica"
     
     equate 1@aa1-001    3@aa2-002
     equate 20@aa1-001   1@aa3-003
-    equate 11@aa3-003   1@ma3-004   35@mag-005   1@aa6-007   
-    equate 11@ja3-008   2@mag-005
+    equate 10@aa3-003   35@mag-005      
+    equate 11@aa3-003   1@aa6-007
+    equate 11@ja3-008   2@mag-005   
     
   endcenterline
   
   input ulaz-extended.th2
+  input dvorana-extended.th2
+  
   input ulaz-plan.th2
+  input dvorana-plan.th2
 
 endsurvey
 
