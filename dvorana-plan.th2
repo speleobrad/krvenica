@@ -1,0 +1,7 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -115.67999999999972 6643.735 3388.345
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {2385.0 1 1.0} {2550.0 {}} drawings/plan-03.png 0 {}
+##XTHERION## xth_me_image_insert {866.1400000000003 1 1.0} {1980.8200000000002 1@aa1-001.krvenica} output/plan.xvi 0 {}
+
+
