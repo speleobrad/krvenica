@@ -30,11 +30,17 @@ survey krvenica -title "Krvenica"
   
   input ulaz-extended.th2
   input dvorana-extended.th2
+  input levi-extended.th2
+  input dublji-extended.th2
   
-  join ulaz-e dvorana-e
+  # join ulaz-e dvorana-e
+  # join dvorana-e dublji-e
   
   input ulaz-plan.th2
   input dvorana-plan.th2
+  input levi-plan.th2
+  
+  # join ulaz-p dvorana-p-gornja
 
 endsurvey
 

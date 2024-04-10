@@ -1,74 +1,74 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -1590.6000000000004 -1217.25 2088.0 244.75
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -3092.0 -2023.25 8404.134999999998 1303.6099999999997
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-123.0 1 4.365158322401659} {116.75 {}} drawings/profile-01.png 0 {}
-##XTHERION## xth_me_image_insert {-1462.6000000000004 1 1.0} {-26.069999999999936 1@aa1-001.krvenica} output/profile.xvi 0 {}
+##XTHERION## xth_me_image_insert {-1687.29 1 1.0} {132.31000000000017 1@aa1-001.krvenica} output/extended.xvi 0 {}
 
 
 
 scrap ulaz-e -projection extended -scale [-128 -1334 2211 -1334 0.0 0.0 59.410599999999995 0.0 m] -sketch drawings/profile-01.png 0 -1206
 
-point -52.5 -9.0 station -name 1@aa2-002
+point -50.0 20.5 station -name 1@aa2-002
 
-point 6.75 -15.25 station -name 2@aa2-002
+point 18.25 18.25 station -name 2@aa2-002
 
-point 83.5 -141.0 station -name 1@aa1-001
+point 101.5 -114.5 station -name 1@aa1-001
 
-point 183.0 -128.5 station -name 2@aa1-001
+point 187.5 -118.0 station -name 2@aa1-001
 
-point 308.0 -293.5 station -name 3@aa1-001
+point 317.0 -281.5 station -name 3@aa1-001
 
-point 434.0 -448.0 station -name 4@aa1-001
+point 440.0 -444.0 station -name 4@aa1-001
 
-point 562.0 -692.0 station -name 5@aa1-001
+point 587.5 -665.5 station -name 5@aa1-001
 
-point 653.5 -749.0 station -name 6@aa1-001
+point 654.5 -745.0 station -name 6@aa1-001
 
-point 695.0 -726.0 station -name 7@aa1-001
+point 687.5 -719.5 station -name 7@aa1-001
 
-point 754.5 -739.0 station -name 8@aa1-001
+point 756.0 -728.0 station -name 8@aa1-001
 
-point 812.0 -740.0 station -name 9@aa1-001
+point 810.0 -730.5 station -name 9@aa1-001
 
-point 841.5 -774.0 station -name 10@aa1-001
+point 845.0 -767.0 station -name 10@aa1-001
 
-point 879.0 -787.0 station -name 11@aa1-001
+point 878.0 -782.0 station -name 11@aa1-001
 
-point 968.5 -725.5 station -name 12@aa1-001
+point 967.0 -716.5 station -name 12@aa1-001
 
-point 1047.5 -666.0 station -name 13@aa1-001
+point 1043.5 -657.5 station -name 13@aa1-001
 
-point 1274.5 -538.0 station -name 17@aa1-001
+point 1268.5 -529.0 station -name 17@aa1-001
 
-point 1205.5 -566.0 station -name 16@aa1-001
+point 1202.0 -557.5 station -name 16@aa1-001
 
-point 1164.5 -597.0 station -name 15@aa1-001
+point 1160.5 -592.5 station -name 15@aa1-001
 
-point 1108.5 -643.0 station -name 14@aa1-001
+point 1106.0 -636.5 station -name 14@aa1-001
 
-point 1315.5 -508.5 station -name 18@aa1-001
+point 1313.0 -504.5 station -name 18@aa1-001
 
-point 1366.5 -517.0 station -name 19@aa1-001
+point 1366.5 -514.0 station -name 19@aa1-001
 
-point 1420.0 -513.0 station -name 1@aa3-003
+point 1425.5 -509.5 station -name 1@aa3-003
 
-point 1457.0 -596.0 station -name 2@aa3-003
+point 1460.0 -584.5 station -name 2@aa3-003
 
-point 1489.0 -620.0 station -name 3@aa3-003
+point 1493.5 -609.0 station -name 3@aa3-003
 
-point 1515.0 -647.0 station -name 4@aa3-003
+point 1519.0 -635.5 station -name 4@aa3-003
 
-point 1619.0 -779.0 station -name 5@aa3-003
+point 1620.0 -775.5 station -name 5@aa3-003
 
-point 1669.0 -829.0 station -name 6@aa3-003
+point 1674.5 -808.5 station -name 6@aa3-003
 
-point 1736.0 -857.0 station -name 7@aa3-003
+point 1724.5 -838.5 station -name 7@aa3-003
 
 point 1782.0 -869.0 station -name 8@aa3-003
 
-point 1818.0 -898.0 station -name 9@aa3-003
+point 1813.0 -891.0 station -name 9@aa3-003
 
-point 1904.0 -1015.0 station -name 10@aa3-003
+point 1904.0 -1015.0 station -name 35@mag-005
 
 line wall -id l33-64-21
   -62.0 65.5
@@ -458,8 +458,8 @@ line border -id l60-1874--1023 -subtype invisible
 endline
 
 line border -id l59-142-3 -subtype invisible
-  -127.0 5.0
-  -127.0 5.0 122.0 1.0 198.0 18.0
+  -118.5 41.5
+  -118.5 41.5 32.5 34.0 108.5 51.0
   smooth off
 endline
 
