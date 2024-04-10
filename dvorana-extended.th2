@@ -1,12 +1,12 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -108.3100000000004 -88.62999999999977 11387.824999999997 3238.23
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {1296.3999999999996 1 1.0} {2066.9300000000003 1@aa1-001.krvenica} output/extended.xvi 0 {}
 ##XTHERION## xth_me_image_insert {5063.0 1 1.0} {2389.915 {}} drawings/profile-02.png 0 {}
 
 
 
-scrap dvorana -projection extended -scale [-128 -1334 2211 -1334 0.0 0.0 59.410599999999995 0.0 m]
+scrap dvorana-e -projection extended -scale [-128 -1334 2211 -1334 0.0 0.0 59.410599999999995 0.0 m]
 
 point 5490.0 2184.0 station -name 3@aa6-007
 
@@ -42,7 +42,7 @@ point 5361.0 1938.0 station -name 34@mag-005
 
 point 5246.0 2147.0 station -name 35@mag-005
 
-line wall -subtype debris
+line wall -id l19-5753-1576 -subtype debris
   5317.75 1699.0
   5317.75 1699.0 5334.25 1686.75 5346.25 1687.0
   5358.25 1687.25 5399.25 1698.25 5414.5 1699.5
@@ -60,7 +60,7 @@ line wall -subtype debris
   5819.25 1610.0
 endline
 
-line wall
+line wall -id l20-5327-1732
   5087.75 2290.5
   5087.75 2290.5 5101.0 2284.75 5100.25 2270.25
   5099.5 2255.75 5091.75 2255.5 5091.25 2239.5
@@ -97,22 +97,22 @@ line wall
   smooth off
 endline
 
-line border -subtype invisible
+line border -id l21-5797-1621 -subtype invisible
   5735.5 1677.5
   5828.75 1592.5
 endline
 
-line border -subtype invisible
+line border -id l22-5422-2152 -subtype invisible
   5392.25 2181.75
   5452.75 2124.0
 endline
 
-line border -subtype invisible
-  5088.25 2280.75
-  5086.75 2354.75
+line border -id l23-5088-2318 -subtype invisible
+  5093.0 2284.25
+  5074.0 2309.5 5064.81 2324.68 5089.0 2347.0
 endline
 
-line wall
+line wall -id l24-5427-2111
   5443.25 2135.5
   5443.25 2135.5 5436.5 2124.75 5435.25 2122.75
   5434.0 2120.75 5428.5 2113.5 5423.75 2112.5
@@ -157,7 +157,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id l25-5144-2323
   5080.5 2342.0
   5080.5 2342.0 5087.0 2339.75 5090.0 2342.25
   5093.0 2344.75 5095.5 2348.0 5101.75 2347.25
@@ -189,6 +189,16 @@ line wall
   5396.75 2175.0 5406.25 2177.5 5406.25 2177.5
   smooth off
 endline
+
+area water
+  l23-5088-2318
+  l25-5144-2323
+  l22-5422-2152
+  l24-5427-2111
+  l21-5797-1621
+  l19-5753-1576
+  l20-5327-1732
+endarea
 
 endscrap
 

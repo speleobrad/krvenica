@@ -31,6 +31,8 @@ survey krvenica -title "Krvenica"
   input ulaz-extended.th2
   input dvorana-extended.th2
   
+  join ulaz-e dvorana-e
+  
   input ulaz-plan.th2
   input dvorana-plan.th2
 
